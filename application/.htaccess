@@ -1,0 +1,16 @@
+<html>
+<head><title>Baslık satırıdır adamım</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<?php 
+
+   foreach($records as $r)
+   {
+      echo $r->username."<br />"; 
+	  }
+	  echo $links; 
+	  ?>
+	  </body>
+	  </html>
+	  
